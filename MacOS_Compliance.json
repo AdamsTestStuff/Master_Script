@@ -1,5 +1,4 @@
-@"
-    {
+  {
         "@odata.type":  "#microsoft.graph.macOSCompliancePolicy",
         "roleScopeTagIds":  [
     
@@ -30,5 +29,3 @@
         "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
     
     }
-
-"@
