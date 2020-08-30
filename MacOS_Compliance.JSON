@@ -1,3 +1,4 @@
+{
         "@odata.type":  "#microsoft.graph.macOSCompliancePolicy",
         "roleScopeTagIds":  [
     
@@ -26,4 +27,4 @@
         "firewallBlockAllIncoming":  false,
         "firewallEnableStealthMode":  false,
         "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
- 
+}
