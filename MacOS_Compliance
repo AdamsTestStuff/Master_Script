@@ -1,0 +1,34 @@
+@"
+    {
+        "@odata.type":  "#microsoft.graph.macOSCompliancePolicy",
+        "roleScopeTagIds":  [
+    
+                            ],
+        "description":  "Base MacOS Compliance Policy",
+        "displayName":  "Default MacOS Compliance Policy",
+        "version":  1,
+        "passwordRequired":  true,
+        "passwordBlockSimple":  false,
+        "passwordExpirationDays":  65535,
+        "passwordMinimumLength":  6,
+        "passwordMinutesOfInactivityBeforeLock":  10,
+        "passwordPreviousPasswordBlockCount":  5,
+        "passwordMinimumCharacterSetCount":  1,
+        "passwordRequiredType":  "deviceDefault",
+        "osMinimumVersion":  null,
+        "osMaximumVersion":  null,
+        "osMinimumBuildVersion":  null,
+        "osMaximumBuildVersion":  null,
+        "systemIntegrityProtectionEnabled":  true,
+        "deviceThreatProtectionEnabled":  false,
+        "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+        "storageRequireEncryption":  true,
+        "gatekeeperAllowedAppSource":  "macAppStoreAndIdentifiedDevelopers",
+        "firewallEnabled":  true,
+        "firewallBlockAllIncoming":  false,
+        "firewallEnableStealthMode":  false,
+        "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+    
+    }
+
+"@
