@@ -1,3 +1,4 @@
+{
          "@odata.type":  "#microsoft.graph.androidCompliancePolicy",
          "roleScopeTagIds":  [
 
@@ -32,3 +33,4 @@
          "restrictedApps":  [
 
                        ]
+}
