@@ -1,0 +1,28 @@
+         "@odata.type":  "#microsoft.graph.iosCompliancePolicy",
+         "roleScopeTagIds":  [
+
+                             ],
+         "description":  "Base iOS Compliance Policy",
+         "displayName":  "iOS Compliance Policy",
+         "version":  1,
+         "passcodeBlockSimple":  true,
+         "passcodeExpirationDays":  null,
+         "passcodeMinimumLength":  6,
+         "passcodeMinutesOfInactivityBeforeLock":  null,
+         "passcodeMinutesOfInactivityBeforeScreenTimeout":  null,
+         "passcodePreviousPasscodeBlockCount":  5,
+         "passcodeMinimumCharacterSetCount":  null,
+         "passcodeRequiredType":  "deviceDefault",
+         "passcodeRequired":  true,
+         "osMinimumVersion":  null,
+         "osMaximumVersion":  null,
+         "osMinimumBuildVersion":  null,
+         "osMaximumBuildVersion":  null,
+         "securityBlockJailbrokenDevices":  true,
+         "deviceThreatProtectionEnabled":  true,
+         "deviceThreatProtectionRequiredSecurityLevel":  "low",
+         "managedEmailProfileRequired":  false,
+         "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+         "restrictedApps":  [
+
+                            ]
