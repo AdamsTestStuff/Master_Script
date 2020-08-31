@@ -1,0 +1,43 @@
+{
+        "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+        "roleScopeTagIds":  [
+    
+                            ],
+        "description":  "Base Windows 10 Compliance Policy",
+        "displayName":  "Default Windows 10 Compliance Policy",
+        "version":  1,
+        "passwordRequired":  true,
+        "passwordBlockSimple":  true,
+        "passwordRequiredToUnlockFromIdle":  false,
+        "passwordMinutesOfInactivityBeforeLock":  10,
+        "passwordExpirationDays":  65535,
+        "passwordMinimumLength":  6,
+        "passwordMinimumCharacterSetCount":  null,
+        "passwordRequiredType":  "numeric",
+        "passwordPreviousPasswordBlockCount":  5,
+        "requireHealthyDeviceReport":  false,
+        "osMinimumVersion":  null,
+        "osMaximumVersion":  null,
+        "mobileOsMinimumVersion":  null,
+        "mobileOsMaximumVersion":  null,
+        "earlyLaunchAntiMalwareDriverEnabled":  false,
+        "bitLockerEnabled":  true,
+        "secureBootEnabled":  false,
+        "codeIntegrityEnabled":  false,
+        "storageRequireEncryption":  true,
+        "activeFirewallRequired":  true,
+        "defenderEnabled":  true,
+        "defenderVersion":  null,
+        "signatureOutOfDate":  true,
+        "rtpEnabled":  true,
+        "antivirusRequired":  true,
+        "antiSpywareRequired":  true,
+        "deviceThreatProtectionEnabled":  false,
+        "deviceThreatProtectionRequiredSecurityLevel":  "low",
+        "configurationManagerComplianceRequired":  false,
+        "tpmRequired":  false,
+        "scheduledActionsForRule":[{"ruleName":"PasswordRequired","scheduledActionConfigurations":[{"actionType":"block","gracePeriodHours":0,"notificationTemplateId":""}]}],
+        "validOperatingSystemBuildRanges":  [
+    
+                                            ]
+}
